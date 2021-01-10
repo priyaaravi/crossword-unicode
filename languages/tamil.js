@@ -4,6 +4,7 @@ function setLanguage(canvas, game) {
   ctx.font = "18px NotoSansTamil";
 
   game.setNumberTransform(function(txt) {
+    return txt ; /* included */
     txt += '';
     txt = txt.replace('100', '௱');
     txt = txt.replace('10', '௰');

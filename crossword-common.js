@@ -42,7 +42,7 @@ var Crossword = function(canvas, width, height) {
 };
 
 Crossword.prototype.clearCanvas = function(resetPuzzle) {
-  this.ctx.fillStyle = '#000';
+  this.ctx.fillStyle = '#fff'; /*changed*/
   this.ctx.fillRect(0, 0, 40 * this.width, 40 * this.height);
 
   if (resetPuzzle) {
@@ -62,10 +62,10 @@ Crossword.prototype.setNumberTransform = function(transform) {
 
 Crossword.prototype.drawGrid = function(x, y) {
   var letter = this.grid[x][y];
-  this.ctx.fillStyle = '#fff';
+  this.ctx.fillStyle =  '#3971'; /* color of clue display */
   this.ctx.fillRect(x * 40 + 2, y * 40 + 2, 36, 36);
   if (letter.label) {
-    this.ctx.fillStyle = '#000';
+    this.ctx.fillStyle = '#000';  /* color of the clue display  */
     this.ctx.fillText(this.numberTransform(letter.label), x * 40 + 10, y * 40 + 20);
   }
 };
