@@ -11,7 +11,7 @@ Zawgyi fonts.
 
 <strong><a href="http://mapmeld.github.io/crossword-unicode/nepali.html">Nepali Version</a></strong> including Preeti font
 
-<strong><a href="http://mapmeld.github.io/crossword-unicode/tamil.html">Tamil Version</a></strong>
+<strong><a href="http://priyaaravi.github.io/crossword-unicode/tamil.html">Tamil Version</a></strong>
 
 ## Usage
 
